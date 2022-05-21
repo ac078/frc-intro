@@ -10,7 +10,7 @@ public class OuttakeBall extends CommandBase {
 
     public OuttakeBall(Intake intake, double power) {
         this.intake = intake;
-        this.intakePower = -power;
+        this.intakePower = power;
         addRequirements(intake);
     }
 
@@ -18,7 +18,7 @@ public class OuttakeBall extends CommandBase {
     public void execute() {
       
       if (intakePower<0) {
-       intake.setPower(intakePower) 
+       intake.setPower(-intakePower) 
          
       }
       else if (intakePower == 0){
