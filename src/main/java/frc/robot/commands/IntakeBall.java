@@ -8,7 +8,7 @@ public class IntakeBall extends CommandBase {
     private Intake intake;
     private double intakePower;
 
-    public RunIntake(Intake intake, double power) {
+    public IntakeBall(Intake intake, double power) {
         this.intake = intake;
         this.intakePower = power;
         addRequirements(intake);
