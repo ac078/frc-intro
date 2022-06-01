@@ -20,4 +20,16 @@ public class Constants {
 
         public static final double kSafeForwardThrottle = 0.05;
     }
+
+    public static final class Turret {
+
+        public static final int kPort1 = 1;
+        public static final int kPort2 = 2;
+
+        public static final double kPspeed = 0;
+        public static final double kIspeed = 0;
+        public static final double kDspeed = 0;
+        public static final double kFFspeed = 0;
+
+    }
 }
